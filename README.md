@@ -13,12 +13,12 @@ The `clima-carbonator` is a React-based frontend application designed to provide
 - User-friendly interface for accessing CO2 prediction data.
 - Real-time data updates from the `ClimaApi`.
 
-### Installation
+### Installation and Running in Devlopment Environment
 ```bash
-git clone [repository-url]
+gh repo clone Moxi3231/CarbonEmission
 cd clima-carbonator
 npm install
-npm start
+npm run dev 
 ```
 
 ### Dependencies
@@ -37,7 +37,7 @@ npm start
 
 ### Installation
 ```bash
-git clone [repository-url]
+gh repo clone Moxi3231/CarbonEmission
 cd ClimaApi
 pip install -r requirements.txt
 python manage.py runserver
