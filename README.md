@@ -42,7 +42,10 @@ cd ClimaApi
 pip install -r requirements.txt
 python manage.py runserver
 ```
+#### Note
+- Before runnig this API make sure the model is serlized and store ./ClimaApi/CarbonApi/Model
 
+- To serialize the model just run the notebook file which will generate a file called `BaggingRegressor` which needs to be placed in the aforementioned directory.
 ### Dependencies
 - Django
 - Scikit-Learn
@@ -55,3 +58,12 @@ python manage.py runserver
 
 ### Usage
 API endpoints can be accessed to retrieve or send data related to CO2 levels and predictions. The API interacts seamlessly with the `clima-carbonator` frontend for data visualization.
+
+
+
+
+### SAMPLE COORINDATES:
+    
+    -0.547,29.653,2020,49
+    -0.569,30.031,2020,0
+    -0.598,29.102,2019,1

@@ -12,7 +12,6 @@ from django.shortcuts import render
 
 from django.http import HttpRequest, JsonResponse
 
-# Create your views here.
 
 def __init__() -> (pd.DataFrame, BaggingRegressor):
     data = pd.read_csv(join(settings.BASE_DIR,'CarbonApi/Data/train.csv'),index_col='ID_LAT_LON_YEAR_WEEK')
